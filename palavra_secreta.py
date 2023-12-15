@@ -18,7 +18,7 @@ print("Você deve digitar apenas uma letra por vez, sempre minúscula.")
 
 while True:
     if palavra_formada == palavra_secreta:
-        print(f'Parabéns! Após {tentativas}, você descobriu a palavra secreta: {palavra_secreta_normal}.')
+        print(f'Parabéns! Após {tentativas} tentativas, você descobriu a palavra secreta: {palavra_secreta_normal}.')
         break
 
     entrada = input().lower()
